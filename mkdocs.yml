@@ -1,7 +1,7 @@
 site_name: Rabbit Archives
 site_url: https://tricky-rabbit.github.io/
 repo_url: https://github.com/tricky-rabbit/tricky-rabbit.github.io
-repo_name: trickyrabbit/tricky-rabbit.github.io
+repo_name: GitHub/tricky-rabbit
 theme:
   name: material
   features:
