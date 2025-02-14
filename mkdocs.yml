@@ -4,6 +4,13 @@ repo_url: https://github.com/tricky-rabbit/tricky-rabbit.github.io
 repo_name: trickyrabbit/tricky-rabbit.github.io
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
   palette:
 
     # Palette toggle for light mode
