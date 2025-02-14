@@ -1,4 +1,24 @@
 site_name: Rabbit Archives
 site_url: https://tricky-rabbit.github.io/
+repo_url: https://github.com/tricky-rabbit/tricky-rabbit.github.io
+repo_name: trickyrabbit/tricky-rabbit.github.io
 theme:
-    name: material
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text:
+      Inter
