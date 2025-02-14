@@ -1,2 +1,11 @@
-# Welcome to Rabbit Archives
-### This website main goal is to store, write and archive important data I might need later.
+# Home
+Welcome! I use this website to document useful stuff.
+
+## Tutorials
+blank
+
+## Resources
+blank
+
+## Configs
+blank

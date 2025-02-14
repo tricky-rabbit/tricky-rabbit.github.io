@@ -2,30 +2,36 @@ site_name: Rabbit Archives
 site_url: https://tricky-rabbit.github.io/
 repo_url: https://github.com/tricky-rabbit/tricky-rabbit.github.io
 repo_name: GitHub/tricky-rabbit
+
+
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.expand
     - navigation.path
-    - toc.integrate
     - navigation.top
   palette:
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    # Palette dark mode
+      scheme: slate
+      primary: black
+      accent: deep purple
   icon:
     repo: fontawesome/brands/github
   font:
     text:
-      Inter
+      Ubuntu
+    code:
+      JetBrains Mono
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: Copyright &copy; 2025 Tricky Rabbit
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tricky-rabbit/tricky-rabbit.github.io
+  generator: false
