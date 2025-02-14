@@ -1,1 +1,1 @@
-# Configs
+# :file_folder: Configurations

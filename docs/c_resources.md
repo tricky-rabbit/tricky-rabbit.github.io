@@ -1,1 +1,1 @@
-# Resources
+# :earth_africa: Resources

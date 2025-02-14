@@ -9,6 +9,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
+    - search.suggest
   palette:
     # Palette dark mode
       scheme: slate
